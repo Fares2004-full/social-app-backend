@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets - never commit these)
+.env
+.env.local
+.env.*.local
+
+# Uploaded files (avatars, post media) - usually don't belong in git
+uploads/
+public/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Build output (if any frontend build is bundled)
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# PM2 / process files
+.pm2/
